@@ -1,0 +1,140 @@
+body {
+  background-color: white;
+  background-image: linear-gradient(to bottom right, red,pink, yellow);
+}
+.App {
+  text-align: center;
+  background-color:pink;
+  background-image: linear-gradient(to bottom right, rgb(245, 41, 41), pink, yellow);
+  min-height: 100vh;
+}
+
+.banner-area{
+  height: 100px;
+  width: 100%;
+  background-color: #1f93cd;
+}
+
+/* Reset some default styles for consistency */
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling for the navigation bar */
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: left;
+}
+
+.navbar li {
+  margin: 0 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Styling for the content area */
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80vh;
+}
+
+.photo {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.photo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.info {
+  flex: 2;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .info {
+    flex: 1;
+    padding: 20px;
+  }
+}
+
+/* FrontPage.css */
+
+.front-page {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Styling for the content container */
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.voting-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Styling for information sections */
+.info {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* .top {
+  order: 1;
+}
+
+.left {
+  order: 2;
+}
+
+.right {
+  order: 3;
+}
+
+.bottom {
+  order: 4;
+} */
+
+/* Styling for get-started section */
+.get-started h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
