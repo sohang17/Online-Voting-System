@@ -5,7 +5,7 @@ import VotingImage from './Block.jpg';
 function FrontPage() {
   return (
     <div className="front-page">
-      <header>
+      <header >
         <h1>Welcome to Online Voting System</h1>
       </header>
 
