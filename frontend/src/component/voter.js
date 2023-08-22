@@ -32,23 +32,23 @@ function VoterComponent({account, contractInstance}) {
 
   return (
     <div style={{paddingTop: "18px", paddingLeft: "5%",paddingRight: "5%" }}>
-        <div className='banner-area'style={{marginBottom: 20}} >
+        <div className='banner-area'>
           <h1>Welcome to Online Voting System</h1>
         </div>
         <div>
           {
-            votingStatus == false ? 
+            votingStatus === false ? 
             <>
               <h2>Voting not started yet !!</h2>
             </>
             :
             totalCandidate.map((candidate)=>{
               return(
-                <Card sx={{ maxWidth: 380, float: "left", marginLeft: 8, marginBottom: 8 }}>
+                <Card sx={{ maxWidth: 300, float: "left", marginLeft: 8, marginBottom: 8 }}>
                   <CardActionArea>
                     <CardMedia
                       component="img"
-                      height="340"
+                      height="280"
                       image={personImage}
                       alt="green iguana"
                       style={{paddingTop: 20}}
