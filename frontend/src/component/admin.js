@@ -83,7 +83,7 @@ function AdminComponent({ account, contractInstance }) {
       <div>
         {activeTab === 0 && (
           <div style={{ float: "left", marginRight: 100 }}>
-            <Card sx={{ width: 400 }}>
+            <Card sx={{ width: 400, marginTop: 5 }}>
               <Typography gutterBottom variant="h5" component="div" align='left' paddingLeft={2} style={{ marginTop: '10px' }}>
                 Register Candidate
               </Typography>
@@ -119,7 +119,7 @@ function AdminComponent({ account, contractInstance }) {
         )}
         {activeTab === 2 && (
           <div>
-            <Card sx={{ width: 400 }}>
+            <Card sx={{ width: 400, marginTop: 5   }}>
               <Typography gutterBottom variant="h5" component="div" align='left' paddingLeft={2}>
                 Start Voting
               </Typography>
