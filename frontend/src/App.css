@@ -1,27 +1,27 @@
 body {
   background-color: white;
-  background-image: linear-gradient(to bottom right, red,pink, yellow);
+  background-image: linear-gradient( #a6c0fe,#f68084);
+  /* background-image: linear-gradient(to bottom right, red,pink, yellow); */
 }
 .App {
   text-align: center;
   background-color:pink;
-  background-image: linear-gradient(to bottom right, rgb(245, 41, 41), pink, yellow);
+  /* background-image: linear-gradient( #6E45E2,#88D3CE); */
+  background-image: linear-gradient( #a6c0fe,#f68084 );
   min-height: 100vh;
 }
 
 .banner-area{
-  height: 100px;
+  height: 70px;
   width: 100%;
-  background-color: #1f93cd;
+  /* background-color: #1f93cd; */  
 }
 
-/* Reset some default styles for consistency */
 body, h1, p {
   margin: 0;
   padding: 0;
 }
 
-/* Basic styling for the navigation bar */
 .navbar {
   background-color: #333;
   color: white;
@@ -42,7 +42,7 @@ body, h1, p {
   text-decoration: none;
   color: white;
 }
-
+/* 
 /* Styling for the content area */
 .content {
   display: flex;
@@ -80,7 +80,7 @@ body, h1, p {
     flex: 1;
     padding: 20px;
   }
-}
+} */
 
 /* FrontPage.css */
 
@@ -117,24 +117,10 @@ body, h1, p {
   box-sizing: border-box;
 }
 
-/* .top {
-  order: 1;
-}
-
-.left {
-  order: 2;
-}
-
-.right {
-  order: 3;
-}
-
-.bottom {
-  order: 4;
-} */
-
 /* Styling for get-started section */
 .get-started h2 {
   font-size: 20px;
   margin-bottom: 10px;
 }
+
+
